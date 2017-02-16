@@ -39,7 +39,7 @@ If you require the code to be executed in a particular way, e.g. "Ensure you hit
 
 If you do decide to develop against any AWS services, we are aware that developing against real services will incur costs, so this is not a requirement. Please simply show the appropriate calls in your code where you would expect to hit live services.
 
-### Technical Questions ###
+## Technical Questions ##
 
 Please answer the following questions in a markdown file called `Answers to technical questions.md`.
 
