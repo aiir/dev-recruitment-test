@@ -13,7 +13,7 @@ When completing this assignment, we would like you to email back a single zip fi
 
 As part of our package we sell mobile applications for iOS and Android. One of the features of the app is the ability for radio stations to send short text messages as push notifications to their listeners phones.
 
-This requires an HTTP API endpoint for the mobile application to hit, to supply a token for that device to be able to send messages to it.
+This requires an HTTP API endpoint which the mobile application makes a POST request to, providing a token the app has already acquired which allows us to send messages back to it.
 
 We also require an easy-to-use web form for clients to be able to compose and send these messages. This interface should also show a count of total number of devices available to receive (based on the number of received tokens to the previously described endpoint) and also show a message history of previously sent messages.
 
